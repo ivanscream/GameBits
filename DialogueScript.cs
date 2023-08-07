@@ -50,7 +50,7 @@ public class DialogueScript : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
-            SceneManager.LoadScene("GameplayStart");
+            // this bit is to make unity load scene after the dialogue: SceneManager.LoadScene("YourSceneName");
         }
     }
 
